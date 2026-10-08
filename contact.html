@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Thimdrine, coopérative de 25 femmes de Nador : miel de thym, huile d'olive et confiture de figue de barbarie du Rif.">
+  <title>Contact | Thimdrine</title>
+  <link rel="icon" href="image/logo.png">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lora:wght@600;700&amp;family=Source+Sans+3:wght@400;600;700&amp;display=swap">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="index.html" class="logo-link"><img src="image/logo.png" alt="" class="logo">Thimdrine</a>
+
+      <ul>
+        <li><a href="index.html" >Accueil</a></li>
+        <li><a href="produits.html">Nos produits</a></li>
+        <li><a href="apropos.html">À propos</a></li>
+        <li><a class="active" href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+  <main>
+    <section class="contactez">
+      <h1>Contactez-nous</h1>
+      <p>Notre équipe est à votre disposition pour vous accompagner et répondre à vos besoins.</p>
+
+      <form>
+        <input type="text" id="nom" name="nom" placeholder="Entrez votre nom complet" required>
+        <input type="email" id="E-mail" name="E-mail" placeholder="E-mail" required>
+        <input type="tel" id="number" name="Téléphone" placeholder="Téléphone" required>
+        <select id="produit" name="produit" required>
+          <option value="">Choisir un produit</option> 
+          <option value="miel">Miel de thym</option> 
+          <option value="huile">Huile d'olive</option>
+          <option value="confiture">Confiture de figue de barbarie</option> 
+        </select>
+
+        <input type="number" id="quantite" name="quantite" min="1" placeholder="Choisir la quantité" required>
+
+        <textarea id="message" name="message" placeholder="Écrivez votre message..." required></textarea>
+        
+        <button type="submit">Envoyer le message</button>
+      </form>
+    </section>
+  </main>
+</body>
+</html>
