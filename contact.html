@@ -32,20 +32,66 @@
         <input type="text" id="nom" name="nom" placeholder="Entrez votre nom complet" required>
         <input type="email" id="E-mail" name="E-mail" placeholder="E-mail" required>
         <input type="tel" id="number" name="Téléphone" placeholder="Téléphone" required>
+
         <select id="produit" name="produit" required>
-          <option value="">Choisir un produit</option> 
-          <option value="miel">Miel de thym</option> 
-          <option value="huile">Huile d'olive</option>
-          <option value="confiture">Confiture de figue de barbarie</option> 
+          <option value="">Choisir un produit</option>
+          <option value="miel-thym">Miel de thym</option>
+          <option value="huile-extra-vierge">Huile d'olive extra vierge</option>
+          <option value="confiture-figue-barbarie">Confiture de figue de barbarie</option>
+          <option value="miel-fleurs-sauvages">Miel de fleurs sauvages</option>
+          <option value="huile-vierge">Huile d'olive vierge</option>
+          <option value="confiture-figue">Confiture de figue</option>
+          <option value="creme-hydratante">Crème hydratante à l'huile d'olive</option>
+          <option value="huile-pepins-figue">Huile de pépins de figue de barbarie</option>
+          <option value="serum-visage">Sérum visage à la figue de barbarie</option>
+          <option value="masque-visage">Masque visage au miel</option>
+          <option value="creme-figue-barbarie">Crème à la figue de barbarie</option>
+          <option value="savon-figue-barbarie">Savon à la figue de barbarie</option>
         </select>
 
         <input type="number" id="quantite" name="quantite" min="1" placeholder="Choisir la quantité" required>
 
         <textarea id="message" name="message" placeholder="Écrivez votre message..." required></textarea>
         
-        <button type="submit">Envoyer le message</button>
+        <label><input type="checkbox" name="donnees" required>J'accepte le traitement de mes données.</label>
+
+        <button class="button3" type="submit">Envoyer le message</button>
+
       </form>
     </section>
+    
+    <section>
+      <div>
+        <img class="image-contactez" src="image/Contactez-nous.png" alt="image contactez de thimdrine">
+      </div>
+    </section>
   </main>
+
+  <footer>
+    <div>
+      <h2>Coopérative Thimdrine</h2>
+      <p>Route de Selouane, Nador, Maroc <br>
+          Tél. : 07 75 34 90 05 <br>
+          E-mail : mme_fadma4@gmail.com <br></p>
+    </div>
+
+    <div>
+      <h2>Horaires</h2>
+      <p>Du lundi au samedi <br>
+            de 9 h à 18 h</p>
+    </div>
+
+    <div class="plan">
+      <h2>Plan du site</h2>
+      <a href="index.html">Accueil</a>
+      <a href="produits.html">Nos produits</a>
+      <a href="apropos.html">À propos</a>
+      <a href="contact.html">Contact</a>
+    </div>
+
+    <div class="siteYoucode">
+      <p>© 2026 Coopérative Thimdrine · Site réalisé à YouCode Nador</p>
+    </div>
+  </footer>
 </body>
 </html>
