@@ -275,11 +275,10 @@ footer{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    align-items: flex-start;
+    align-items: center;
     margin: 0;
     padding: 32px 48px;
     gap: 40px;
-    margin-top: 10px;
 }
 footer > div{
     flex: 1;
@@ -400,3 +399,4 @@ input:focus-visible,select:focus-visible,textarea:focus-visible{
     width: 100%;
     max-width: 600px;
 }
+
